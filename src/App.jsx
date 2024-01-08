@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
   
-    <div className='bg-black w-screen'>
+    <div classNameName='bg-black w-screen'>
      <header className='flex mt-4 w-[95%] m-auto'>
      <a href="/" className='uppercase  w-[112px] h-[43px] md:w-[186px] md:h-[71px] flex-shrink-0'>
         <img src="https://neatskills.online/componentsgraphics/common/navbar/navbar/neatskillslogosample.svg" alt="logo" className='w-full h-full object-contain ' />
@@ -140,15 +140,15 @@ function App() {
       </div>      
      </section>
      {/* skill community */}
-     <section className='relative'>
-      <img className='absolute top-16 right-0 w-1/2 lg:w-1/5 z-0' src="./Vector32.png" alt="" />
-      <img className='absolute top-96 scale-110 -rotate-[15deg] -translate-x-[40%] left-0 w-1/2  lg:w-1/5 z-0' src="./Vector33.png" alt="" />
-      <div>
+     <section className='mt-[5rem]'>
+      <img className='absolute  right-0 w-1/2 lg:w-1/5 z-0' src="./Vector32.png" alt="" />
+      <img className='absolute top-[225rem] scale-110 -rotate-[15deg] -translate-x-[40%] left-0 w-1/2  lg:w-1/5 z-0' src="./Vector33.png" alt="" />
+      <div className=''>
       <h1 className="text-white right-24 absolute z-50 pt-[6rem] lg:text-3xl text-2xl font-medium md:text-start text-center uppercase md:flex hidden">Join our Neat Skills Community</h1>
       <p className="text-white right-20 absolute z-50 pt-[10rem] w-[40%] font-normal md:text-lg text-base md:flex items-center md:text-start text-center hidden">Learn any skill (coding , AI/ML , art , business, stock market , marketing , video editing and much more) at just one nominal monthly subscription cequivalent to your sim card plan</p>
       </div>
 
-      <div className='text-white absolute pt-[20rem] w-[90%] m-auto'>
+      <div className='text-white  pt-[20rem] w-[90%] m-auto'>
         <div className='w-[90%] m-auto'>
           <div className='flex justify-evenly'>
             {/* left section */}
@@ -183,16 +183,66 @@ function App() {
         </div>
       </div>
      </section>   
-     {/* <div className='mt-[45rem] text-white '>
-     <button className="w-[40%] m-auto float-right border-2 transition duration-300 ease-in-out transform hover:scale-105 border-[#E1348B] bg-[#000000] text-xl md:text-2xl h-16 justify-center items-center font-medium rounded-md z-40">Subscribe Now</button>
-     </div> */}
     </div>
-    {/* learning activites */}
-    <div>
-      <section className=''>
-    <h2 className='text-white '>learning activites</h2>
-   </section>
-    </div>
+    {/* learning activites */}    
+      <section className='mt-[10rem]'>
+      <p className="float-left ml-[10rem] text-[15px] sm:text-xl md:text-2xl lg:text-[32px] self-start text-white text-center">A number of available learning <br /> activities that will <span className="text-[#E1348B]">shock you</span></p>
+      <img className='w-[60%] pt-[3rem] m-auto object-contain block' src="https://neatskills.online/_next/image?url=%2Fcomponentsgraphics%2Fcommon%2Fhomepage%2Factivities%2Factivities.png&w=2048&q=75" alt="" />
+      </section>
+
+      {/* certification section */}
+      <section className='mt-[5rem] text-white w-full bg-[#16171C]'>
+        <div className='w-[90%] m-auto '>
+        <div className='flex justify-around align-middle'>
+         {/* left side */}
+         <div className='w-full mt-[5rem]'>
+         <div className="px-[30px] md:px-0 md:pr-20  lg:py-8 md:w-1/2">
+          <h4 className="font-ral leading-[112%]  text-2xl lg:text-4xl font-semibold">Stand out with a skill<span className="text-[#E73D59]"><br /> certificate</span>
+          </h4>
+          <p className=" text-[15px]  lg:text-2xl  font-light text-[#DFDFDF] leading-[121%] mt-4">Earn globally recognized certification and improve your knowledge.</p>
+          <div className="mt-16 md:mt-12 w-full flex justify-center md:justify-start">
+            <a href="/beta/courseoverview">
+              <button className="bg-transparent transition duration-300 ease-in-out transform hover:scale-105 text-white font-ral border-2 border-white  w-[173px] h-[52px] lg:w-[203px] lg:h-[75px] relative md:ml-[70px] lg:ml-[110px]">Explore Courses
+              <img alt="/" loading="lazy" width="66" height="45" decoding="async" data-nimg="1" className="absolute  w-[30px]  left-1/2 rotate-90 -top-4  -translate-y-full md:w-[50px]  md:-left-4 md:top-1/2 md:rotate-0 md:-translate-x-full  lg:w-[66px] lg:-left-8 "   src=""/>
+              </button>
+              </a>
+              </div>
+              </div>
+         </div>
+         {/* right side */}
+         <div className='w-[50%] mt-[5rem]'>
+         <img alt="/" className='' loading="lazy" width="1000" height="1000" decoding="async" data-nimg="1" src="https://neatskills.online/componentsgraphics/common/homepage/explorecourses/Certificate.svg"/>
+         </div>
+        </div>
+        </div>
+      </section>
+      {/* signup section */}
+      <section className='w-[90%] m-auto mt-[5rem]'>
+        <div className='flex  justify-center items-center w-full max-w-[1280px]  bg-[#DA2C84] text-white rounded-3xl  py-2 px-5 md:py-4 md:px-16 '>
+            {/* left side */}
+            <div className="flex justify-center items-center w-full max-w-[1280px]  bg-[#DA2C84] text-white rounded-3xl  py-2 px-5 md:py-4 md:px-16 ">
+              <div className="h-full grow space-y-3 sm:space-y-4  md:space-y-5 lg:space-y-7 pr-4 md:pr-16 ">
+                <h1 className="text-sm sm:text-xl md:text-3xl lg:text-[40px] lg:leading-[132%]">The great aim of education is not knowledge, but action.</h1>
+                <div>
+                  <a href="/beta/signup">
+                    <button className="flex transition duration-300 ease-in-out transform hover:scale-105 items-center    sm:h-10 sm:w-28 md:h-12 md:w-40 lg:h-16 lg:w-[235px]  bg-black border border-white justify-center space-x-1 sm:space-x-2 md:space-x-4">
+                      <p className="text-[12px] sm:text-xs md:text-base lg:text-2xl">Sign Up</p>
+                        </button>
+                        </a>
+                        </div>
+                        </div>
+                        <div className="w-5/12">
+                            </div>
+                            </div>
+            {/* right side */}
+            <div>
+            <div className="w-full">
+              <img alt="image" className="" width={900} src="https://neatskills.online/componentsgraphics/common/homepage/signup/5.svg"/>
+            </div>
+            </div>
+        </div>
+      </section>
+    
     
     </div>
 
