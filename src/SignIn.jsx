@@ -17,7 +17,6 @@ function SignIn() {
         setValue(localStorage.getItem('email'))
     },[value])
 
-    // {value?<Home/>:<button onClick={handleClick}>Sign In with Google</button>}
   return (
     <div className="text-white flex">
         {/* left container */}
